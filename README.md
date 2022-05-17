@@ -1,0 +1,2 @@
+# ADBMS
+DataBase Management System
