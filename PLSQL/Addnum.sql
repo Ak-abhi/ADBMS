@@ -1,0 +1,10 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `addn`()
+BEGIN
+DECLARE a INT;
+DECLARE b INT;
+DECLARE c INT;
+SET a=15;
+SET b=25;
+SET c=a+b;
+SELECT CONCAT('SUM=',c);
+END
